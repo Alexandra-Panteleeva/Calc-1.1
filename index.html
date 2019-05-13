@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator 1.1</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/screen.css">
+</head>
+<body> 
+  <div class="main js-main">
+    <input type="text" id="first-num" class="display display--number">
+    <input type="text" id="second-num" class="display display--number">
+    <div class="buttons">
+      <button type="button" class="button js-button" data-operation="addition">+</button>
+      <button type="button" class="button js-button" data-operation="subtraction">&ndash;</button>
+      <button type="button" class="button js-button" data-operation="multiply">&times;</button>
+      <button type="button" class="button js-button" data-operation="division">&divide;</button>
+      <button type="button" class="button js-button" data-operation="reset">c</button>
+    </div>
+    <p class="result">Результат:
+      <input class="display display--result js-output" type="text" disabled>
+    </p>
+    <div class="buttons themes">
+      <button type="button" class="button js-theme-button" data-theme="dark">	&#9898;</button>
+      <button type="button" class="button js-theme-button" data-theme="light">	&#9898;</button>
+      <button type="button" class="button js-time-theme-button">		&#9734;</button>
+      <button type="button" class="button js-theme-button" data-theme="green">	&#9898;</button>
+      <button type="button" class="button js-theme-button" data-theme="yellow">	&#9898;</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
